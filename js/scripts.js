@@ -323,7 +323,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     nombre: "Mojito",
                     imagen: "images/mojito.png",
                     ingredientes: [
-                        { nombre: "Ron Bacardi Blanco", cantidad: "1 1/2", umed: "OZ" },
+                        { nombre: "Ron Bacardi Blanco", cantidad: "2", umed: "OZ" },
                         { nombre: "Jugo de Limón", cantidad: "1/2", umed: "OZ" },
                         { nombre: "Jarabe Natural", cantidad: "2", umed: "OZ" },
                         { nombre: "Hierbabuena", cantidad: "2", umed: "OZ" },
@@ -333,7 +333,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     preparacion: [
                         "Activar 5 hojas de hierbabuena y añadirlas después de macerar el limón entero, partido en 4, junto con jugo de limón, ron y jarabe natural.",
                         "Machacar suavemente, intentando aplastar el limón sin dañar las hojas de hierbabuena.",
-                        "Agregar hielo en cubos hasta la mitad del vaso y completar la otra mitad con hielo triturado.",
+                        "Agregar hielo triturado hasta llenar el vaso (el hielo no muy triturado)",
                         "Cubrir con agua mineral y mezclar muy bien todos los ingredientes.",
                         "Decorar con 5 hojas de hierbabuena y rodajas de limón deshidratado."
                     ]
@@ -499,4 +499,5 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         }
     }
+
 });
