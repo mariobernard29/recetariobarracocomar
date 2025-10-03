@@ -10,6 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     imagen: "images/limonada-natural.png",
                     ingredientes: [
                         { nombre: "Sour Mix", cantidad: "3", umed: "OZ" },
+                        { nombre: "Jarabe Natural", cantidad: "1/2", umed: "OZ" },
                         { nombre: "Agua Natural", cantidad: "TOP", umed: "VASO" },
                         { nombre: "Hielo", cantidad: "1", umed: "VASO" },
                         { nombre: "Limón Deshidratado", cantidad: "1", umed: "PZA" }
@@ -26,6 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     imagen: "images/limonada-mineral.png",
                     ingredientes: [
                         { nombre: "Sour Mix", cantidad: "3", umed: "OZ" },
+                        { nombre: "Jarabe Natural", cantidad: "1/2", umed: "OZ" },
                         { nombre: "Agua Mineral", cantidad: "TOP", umed: "VASO" },
                         { nombre: "Hielo", cantidad: "1", umed: "VASO" },
                         { nombre: "Limón Deshidratado", cantidad: "1", umed: "PZA" }
@@ -43,7 +45,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     ingredientes: [
                         { nombre: "Sour Mix", cantidad: "3", umed: "OZ" },
                         { nombre: "Concentrado Pepino", cantidad: "2", umed: "OZ" },
-                        { nombre: "Agua Mineral", cantidad: "TOP", umed: "VASO" },
+                        { nombre: "Agua Mineral o Natural", cantidad: "TOP", umed: "VASO" },
                         { nombre: "Hielo", cantidad: "1", umed: "VASO" },
                         { nombre: "Limón Deshidratado", cantidad: "1", umed: "PZA" }
                     ],
@@ -60,7 +62,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     ingredientes: [
                         { nombre: "Sour Mix", cantidad: "3", umed: "OZ" },
                         { nombre: "Concentrado Fresa", cantidad: "2", umed: "OZ" },
-                        { nombre: "Agua Mineral", cantidad: "TOP", umed: "VASO" },
+                        { nombre: "Agua Mineral o Natural", cantidad: "TOP", umed: "VASO" },
                         { nombre: "Hielo", cantidad: "1", umed: "VASO" },
                         { nombre: "Limón Deshidratado", cantidad: "1", umed: "PZA" }
                     ],
@@ -444,6 +446,22 @@ document.addEventListener('DOMContentLoaded', () => {
                         "Decorar con una rodaja de naranja deshidratada."
                     ]
                 }
+                {
+                    id: "negroni",
+                    nombre: "Negroni",
+                    imagen: "images/negroni.png",
+                    ingredientes: [
+                        { nombre: "Campari", cantidad: "1", umed: "OZ" },
+                        { nombre: "Gin", cantidad: "1", umed: "OZ" },
+                        { nombre: "Rosso", cantidad: "1", umed: "OZ" },
+                        { nombre: "Hielo", cantidad: "1", umed: "TOP" },
+                        { nombre: "Piel de naranja", cantidad: "1", umed: "PZ" }
+                    ],
+                    preparacion: [
+                        "Añadir los ingredientes a un vaso roquero.",
+                        "Porner la piel de naraja en el vaso y exprimir el zumo de ella."
+                    ]
+                }
             ]
         }
     };
@@ -501,3 +519,4 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
 });
+
