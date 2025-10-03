@@ -445,7 +445,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         "Mezclar hasta que los ingredientes se integren.",
                         "Decorar con una rodaja de naranja deshidratada."
                     ]
-                }
+                },
                 {
                     id: "negroni",
                     nombre: "Negroni",
@@ -519,4 +519,5 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
 });
+
 
