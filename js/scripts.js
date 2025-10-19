@@ -109,6 +109,24 @@ document.addEventListener('DOMContentLoaded', () => {
                         "Decorar con brocheta de frutos rojos."
                     ]
                 },
+                 {
+                    id: "limonadas-stevia",
+                    nombre: "Limonadas con stevia",
+                    imagen: "images/limonada-natural.png",
+                    ingredientes: [
+                        { nombre: "limon", cantidad: "1.5", umed: "OZ" },
+                        { nombre: "Jarabe de stevia", cantidad: "1.5", umed: "OZ" },
+                        { nombre: "Agua Natural o mineral", cantidad: "TOP", umed: "VASO" },
+                        { nombre: "Hielo", cantidad: "1", umed: "VASO" },
+                        { nombre: "Consentrado (de ser necesario)", cantidad: "2", umed: "OZ" },
+                        { nombre: "Limón Deshidratado", cantidad: "1", umed: "PZA" }
+                    ],
+                    preparacion: [
+                        "Agregar hielo al vaso.",
+                        "Agregar los ingredientes.",
+                        "Decorar con limón deshidratado."
+                    ]
+                },
                 {
                     id: "pina-colada-sin-alcohol",
                     nombre: "Piña Colada (Sin Alcohol)",
@@ -446,6 +464,23 @@ document.addEventListener('DOMContentLoaded', () => {
                         "Decorar con una rodaja de naranja deshidratada."
                     ]
                 },
+                 {
+                    id: "clericot",
+                    nombre: "clericot",
+                    imagen: "images/aperol-sprits.png",
+                    ingredientes: [
+                        { nombre: "sour mix", cantidad: "3", umed: "OZ" },
+                        { nombre: "agua mineral", cantidad: "4", umed: "OZ" },
+                        { nombre: "Vino Tinto", cantidad: "2", umed: "OZ" },
+                        { nombre: "Naranja deshidratada", cantidad: "1", umed: "PX" }
+                    ],
+                    preparacion: [
+                        "Añadir los ingredientes esepto el vino a una copa con hielo.",
+                        "Mezclar hasta que los ingredientes se integren.",
+                        "Vertir el vino sin que se mezcle.",
+                        "Decorar con una rodaja de naranja deshidratada."
+                    ]
+                },
                 {
                     id: "negroni",
                     nombre: "Negroni",
@@ -519,5 +554,6 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
 });
+
 
 
