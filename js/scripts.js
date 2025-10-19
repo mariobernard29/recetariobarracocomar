@@ -118,7 +118,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         { nombre: "Jarabe de stevia", cantidad: "1.5", umed: "OZ" },
                         { nombre: "Agua Natural o mineral", cantidad: "TOP", umed: "VASO" },
                         { nombre: "Hielo", cantidad: "1", umed: "VASO" },
-                        { nombre: "Consentrado (de ser necesario)", cantidad: "2", umed: "OZ" },
+                        { nombre: "Consentrado frutal (de ser necesario)", cantidad: "2", umed: "OZ" },
                         { nombre: "Limón Deshidratado", cantidad: "1", umed: "PZA" }
                     ],
                     preparacion: [
@@ -466,11 +466,11 @@ document.addEventListener('DOMContentLoaded', () => {
                 },
                  {
                     id: "clericot",
-                    nombre: "clericot",
+                    nombre: "Clericot",
                     imagen: "images/aperol-sprits.png",
                     ingredientes: [
-                        { nombre: "sour mix", cantidad: "3", umed: "OZ" },
-                        { nombre: "agua mineral", cantidad: "4", umed: "OZ" },
+                        { nombre: "Sour mix", cantidad: "3", umed: "OZ" },
+                        { nombre: "Agua mineral", cantidad: "4", umed: "OZ" },
                         { nombre: "Vino Tinto", cantidad: "2", umed: "OZ" },
                         { nombre: "Naranja deshidratada", cantidad: "1", umed: "PX" }
                     ],
@@ -554,6 +554,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
 });
+
 
 
 
